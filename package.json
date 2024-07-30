@@ -1,0 +1,19 @@
+{
+  "name": "microsoftpro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "live-server" : "live-server" ,
+    "tailwind": "tailwindcss -i ./tailwind/tailwind.css -o ./src/output.css --watch -m"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
