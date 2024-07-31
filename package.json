@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "live-server" : "live-server" ,
-    "tailwind": "tailwindcss -i ./tailwind/tailwind.css -o ./src/output.css --watch -m"
+    "tailwind": "tailwindcss -i ./tailwind/tailwind.css -o ./src/output.css --watch "
   },
   "keywords": [],
   "author": "",
