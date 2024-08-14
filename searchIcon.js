@@ -5,6 +5,7 @@ let headerPart = document.getElementById("headerPart");
 let cancel = document.getElementById("cancel");
 const xlSize = 1028;
 
+
 search.addEventListener("click", () => {
   xxlMenu.style.display = "none";
   inputWide.style.display = "flex";

@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css">
     <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <script src="searchIcon.js" defer ></script>
+
+
   </head>
   
   <body class="flex flex-col  ">
@@ -138,7 +144,7 @@
         </menu>
 
           <!-- //////////////////////////////////////////////////////////////////////////// -->
-          <!-- small size  -->
+                                      <!-- small size  -->
           <!-- //////////////////////////////////////////////////////////////////////////// -->
         
           <menu class=" sm:hidden md:flex lg:hidden xl:hidden xxl:hidden flex-row pr-[5px] pl-[5px] sm:text-sm  justify-center text-nowrap text-lg ">
@@ -286,7 +292,8 @@
                               <!-- main body section one xl , xxl size  -->
       <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
       <div class="sm:hidden md:hidden lg:flex xl:flex xxl:flex  flex-row  justify-center
-      items-center bg-blue-100">
+         items-center bg-blue-100">
+
       <div class="w-[auto] h-auto sm:hidden pl-[1rem]  flex-col justify-start
              gap-[5] items-start text-lg   bg-blue-100 ">
           <button class=" w-[auto] mt-20 ml-10 p-2 outline-4 whitespace-nowrap  bg-[#9bf00b]">Back to School</button>
@@ -302,7 +309,7 @@
              <span>get 20% off select accessories.</span>
                                         
            </p> 
-           <button class=" w-[auto] mt-10 ml-20 p-2 outline-4 whitespace-nowrap  text-lg
+           <button class=" w-[auto] mt-10 ml-10  p-2 outline-4 whitespace-nowrap  text-lg
             border text-[white] bg-[#0067b8]">Shop The Bundle</button>
       </div>
       <div class="w-auto h-auto">
@@ -320,32 +327,50 @@
       <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
           
       <div class="w-[100%] h-auto mb-10 sm:hidden md:flex lg:hidden xl:hidden xxl:hidden 
-            pl-[1rem]  flex-col justify-start gap-[5] items-start text-lg bg-blue-100 ">
+              flex-col justify-start gap-[5] items-center text-lg bg-blue-100 ">
           
-          <button class=" w-[auto] mt-20 ml-20 p-2 outline-4 whitespace-nowrap 
+            <div class="w-[100%] h-auto mb-10" >
+          
+            <button class=" w-[auto] mt-20 ml-20 p-2 outline-4 whitespace-nowrap 
           border bg-[#9bf00b]">Back to School</button>
-            <a href="#" class="flex flex-col ml-20 mt-5 text-2xl gap-2">
+          
+          <a href="#" class="flex flex-col ml-20 mt-5 text-2xl gap-2">
               Surface laptop, Copilot + PC 
                 <span>Bundle</span>
             </a>
+          
             <p class="text-md mt-5 ml-20 flex flex-col gap-2">
             
               Save up to $59 on an AI-powered PC with Microsoft 365 and a protection plan—plus,
                <span>get 20% off select accessories.</span>
                                           
              </p>
+          
              <button class=" w-[auto] mt-7 ml-20 p-2 outline-4 whitespace-nowrap  text-lg
                border text-[white] bg-[#0067b8]">Shop The Bundle</button>
+          
+            </div>
+          
+          <div class="w-[100%] h-auto">
+                <img class="w-[100%] h-[413px]"
+                src="image/Highlight-Surface-Essentials-Pro-MS365-MSComplete-FY25BTS_VP2-859x540-_1_.jpg"
+                class="img-fluid rounded-top"
+                alt="Highlight-Surface-Essentials-Pro"/>           
+                
+              </div>
       </div>
       <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
                               <!-- main body section one sm size  -->
       <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
           
-      <div class="w-[100%] h-auto mb-10 sm:flex md:hidden lg:hidden xl:hidden xxl:hidden mt-10
-            pl-[1rem]  flex-col justify-start gap-[5] items-start text-lg   bg-blue-100">
-          
-          <button class=" w-[auto] mt-15 ml-15 p-2 outline-4 whitespace-nowrap 
+      <div class="w-[100%] h-auto mb-5 sm:flex md:hidden lg:hidden xl:hidden xxl:hidden mt-10
+             flex-col justify-start gap-[5] items-start text-lg   bg-blue-100">
+
+          <div class="w-[100%] h-auto sm:flex flex-col p-2 md:hidden lg:hidden xl:hidden xxl:hidden ">
+
+          <button class=" w-[8rem] sm:text-sm mt-15 ml-15 p-2 outline-4 whitespace-nowrap 
             border bg-[#9bf00b]">Back to School</button>
+            
             <a href="#" class="flex flex-col ml-15 mt-5 text-xl gap-2 whitespace-nowrap">
               Surface laptop, Copilot + PC 
                 <span>Bundle</span>
@@ -356,8 +381,17 @@
                <span>get 20% off select accessories.</span>
                                           
              </p>
-             <button class=" w-[auto] mt-5 ml-15 p-2 outline-4 whitespace-nowrap  text-sm
-            border text-[white] bg-[#0067b8]">Shop The Bundle</button>
+             <button class=" w-[8rem] mt-5 ml-15 p-2 outline-4 whitespace-nowrap  text-sm
+                            border text-[white] bg-[#0067b8]">Shop The Bundle</button>
+          </div>
+
+            <div class="w-[100%] h-auto">
+              <img class="w-[100%] h-[250px]"
+              src="image/Highlight-Surface-Essentials-Pro-MS365-MSComplete-FY25BTS_VP2-859x540-_1_.jpg"
+              class="img-fluid rounded-top"
+              alt="Highlight-Surface-Essentials-Pro"/>           
+              
+            </div>
       </div>
       
 
@@ -459,11 +493,12 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////// -->
 
   <section class="w-[100%] h-auto justify-self-center mb-5 pr-5 pl-5  flex
-              sm:flex-col md:flex-col lg:flex-row xl:flex-row xxl:flex-row  gap-5 justify-between items-center">
+              sm:flex-col md:flex-col lg:flex-row xl:flex-row xxl:flex-row 
+               gap-5 justify-between items-center">
         
          <div class=" sm:hidden md:hidden lg:w-[300px] lg:h-[250px] xl:w-[310px] 
               xl:h-[370px] xxl:w-[310px] xxl:h-[370px] 
-              border flex flex-col gap-2 lg:text-sm  p-1">
+              border flex flex-col gap-2 lg:text-sm  p-1 shadow-xl">
             
               <div class="w-auto h-auto ">
               <img class="w-[100%] h-[140px] lg:h-[80px]" src="./image/Content-Card-Windows-11-Business.jpg" alt="">
@@ -483,7 +518,7 @@
       
         <div class=" sm:hidden md:hidden  lg:w-[300px] lg:h-[250px]
          xl:w-[310px] xl:h-[370px] xxl:w-[310px] xxl:h-[370px] 
-         border flex flex-col gap-2  p-1 lg:text-sm ">
+         border flex flex-col gap-2  p-1 lg:text-sm shadow-xl">
          
          <div class="w-auto h-auto ">
           <img class="w-[100%] h-[140px] lg:h-[80px]" src="./image/gldn-XSX-CP-Xbox-Series-X.webp" alt="">
@@ -501,7 +536,7 @@
         </div>     
       
          <div class=" sm:hidden md:hidden lg:w-[300px] lg:h-[250px] xl:w-[310px] xl:h-[370px] 
-         xxl:w-[310px] xxl:h-[370px] border flex flex-col gap-2 p-1 lg:text-sm">
+         xxl:w-[310px] xxl:h-[370px] border flex flex-col gap-2 p-1 lg:text-sm shadow-xl">
         
          <div class="w-auto h-auto ">
           <img class="w-[100%] h-[140px] lg:h-[80px]" src="./image/Content-Card-Surface-Laptop-Studio-2-CONS-M001.webp" alt="">
@@ -521,7 +556,7 @@
       
         <div class=" sm:hidden md:hidden lg:w-[300px] lg:h-[250px]
          xl:w-[333px] xl:h-[370px] xxl:w-[333px] xxl:h-[370px]    
-          border flex flex-col gap-2 p-1 lg:text-sm ">
+          border flex flex-col gap-2 p-1 lg:text-sm shadow-xl">
         <div class="w-auto h-auto ">
           <img class="w-[100%] h-[140px] lg:h-[80px]" src="./image/Content-Card-Windows-11-Business.jpg" alt="">
         </div>
@@ -543,7 +578,7 @@
       <div class=" sm:flex md:flex lg:hidden xl:hidden xxl:hidden 
         w-[100%] h-auto  justify-around items-center  flex-row gap-2 sm:text-sm  p-1">
         
-        <div class="w-[520px] h-[250px]  border flex flex-col gap-[0.5px] p-2 ">
+        <div class="w-[520px] h-[250px]  border flex flex-col gap-[0.5px] p-2 shadow-xl ">
 
           <div class="w-auto h-auto justify-self-center self-center ">
             <img class="w-[140px] h-[100px]" 
@@ -558,11 +593,13 @@
             voluptas accusamus saepe totam recusandae ipsam.
           </p>
           
-          <button class="w-[5rem] p-1  mt-auto text-white bg-blue-500 text-sm border"> for 1 person </button>
+          <button class="w-[5rem] p-1  mt-auto text-white bg-blue-500 text-sm border">
+             for 1 person 
+          </button>
      
         </div>
       
-        <div class=" w-[520px] h-[250px]  border flex flex-col gap-1 p-2 ">
+        <div class=" w-[520px] h-[250px]  border flex flex-col gap-1 p-1 shadow-xl ">
           
           <div class="w-auto h-auto justify-self-center self-center ">
             <img class="w-[140px] h-[100px]" 
@@ -585,7 +622,7 @@
       <div class="sm:flex md:flex  w-[100%] h-auto sm:text-sm
             lg:hidden xl:hidden xxl:hidden flex-row  justify-around items-center gap-2 ">
         
-        <div class="w-[520px] h-[250px]  border flex flex-col gap-1 p-1">
+        <div class="w-[520px] h-[250px]  border flex flex-col gap-1 p-1 shadow-xl">
           
           <div class="w-auto h-auto justify-self-center self-center ">
             <img class="w-[140px] h-[100px]" 
@@ -605,7 +642,7 @@
 
         </div>
       
-        <div class=" w-[520px] h-[250px]  border flex flex-col gap-1 p-1">
+        <div class=" w-[520px] h-[250px]  border flex flex-col gap-1 p-1 shadow-xl">
             
           <div class="w-auto h-auto justify-self-center self-center ">
             <img class="w-[140px] h-[100px]" 
@@ -633,7 +670,7 @@
       <!-- ////////////////////////////////////////////////////////////////////////////// -->        
 
       <section class="w-[100%] h-auto mb-[5rem] flex  justify-center mt-[5rem]">
-        
+
         <div class="w-[95%] h-[100%] sm:flex md:flex lg:flex xl:flex 
           xxl:flex justify-center  flex-row  md:flex-col sm:flex-col xl:text-xl xxl:text-xxl">
             
@@ -662,14 +699,373 @@
               <img class="w-[100%] h-[100%]" src="./image/Highlight-MultiCanvas-Microsoft-Copilot-App-3screens_VP2-859x540.jpg" alt="">
             </div>
 
-
         </div>
 
-
-
       </section>
+
+      <!-- ///////////////////////////////////////////////////////////////////////////////// -->
+      <p class=" self-start text-[1.8rem]  md:hidden sm:hidden p-5 ">For businnes</p>
+
+      <section class="w-[100%] h-auto justify-self-center mb-5 pr-5 pl-5  flex
+      sm:flex-col md:flex-col lg:flex-row xl:flex-row xxl:flex-row 
+       gap-5 justify-between items-center">
+
+
+ <div class=" sm:hidden md:hidden lg:w-[300px] lg:h-[250px] xl:w-[310px] 
+      xl:h-[370px] xxl:w-[310px] xxl:h-[370px] 
+      border flex flex-col gap-2 lg:text-sm  p-1 shadow-xl">
     
-    </main>
+      <div class="w-auto h-auto ">
+      <img class="w-[100%] h-[140px] lg:h-[80px]" src="./image/Content-Card-Windows-11-Business.jpg" alt="">
+  
+      </div>
+  
+    <h2 class="ml-2 mt-2 text-xl lg:text-sm lg:font-bold  " >
+      Maximize the everyday with Microsoft 365         
+    </h2>
+  
+  <p class="text-md">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, 
+    voluptas accusamus saepe totam recusandae ipsam.</p>
+  
+    <button class="w-[5rem] p-1  mt-auto text-white bg-blue-500 text-sm border"> for 1 person </button>
+
+</div>
+
+<div class=" sm:hidden md:hidden  lg:w-[300px] lg:h-[250px]
+ xl:w-[310px] xl:h-[370px] xxl:w-[310px] xxl:h-[370px] 
+ border flex flex-col gap-2  p-1 lg:text-sm shadow-xl">
+ 
+ <div class="w-auto h-auto ">
+  <img class="w-[100%] h-[140px] lg:h-[80px]" src="./image/gldn-XSX-CP-Xbox-Series-X.webp" alt="">
+</div>
+ 
+<h2 class="ml-2 mt-2 text-xl lg:text-sm lg:font-bold  " >
+  Xbox Series S
+  </h2>
+
+  <p class="text-md" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, assumenda?</p>
+  
+  <button class="w-[6rem] p-1 mt-auto text-white bg-blue-500 
+      whitespace-nowrap text-sm border"> shop XboX Series 5</button>
+
+</div>     
+
+ <div class=" sm:hidden md:hidden lg:w-[300px] lg:h-[250px] xl:w-[310px] xl:h-[370px] 
+ xxl:w-[310px] xxl:h-[370px] border flex flex-col gap-2 p-1 lg:text-sm shadow-xl">
+
+ <div class="w-auto h-auto ">
+  <img class="w-[100%] h-[140px] lg:h-[80px]" src="./image/Content-Card-Surface-Laptop-Studio-2-CONS-M001.webp" alt="">
+</div>
+
+<h2 class="ml-2 mt-2 text-xl lg:text-sm lg:font-bold  " >
+  Maximize the everyday with Microsoft 365
+  </h2>
+
+  <p class="text-md" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Voluptatem, temporibus.</p>
+  
+    <button class="w-[7rem] mt-auto text-white bg-blue-500 whitespace-nowrap 
+      text-sm p-1 border"> shop Xbox Series 5</button>
+
+  </div>
+
+<div class=" sm:hidden md:hidden lg:w-[300px] lg:h-[250px]
+ xl:w-[333px] xl:h-[370px] xxl:w-[333px] xxl:h-[370px]    
+  border flex flex-col gap-2 p-1 lg:text-sm shadow-xl">
+<div class="w-auto h-auto ">
+  <img class="w-[100%] h-[140px] lg:h-[80px]" src="./image/Content-Card-Windows-11-Business.jpg" alt="">
+</div>
+<h2 class="ml-2 mt-2 text-xl lg:text-sm lg:font-bold  " >
+  Xbox Game Pass Ultimate
+ </h2>
+  
+ <p class="text-md">Play new games on day one. Plus, enjoy hundreds of high-quality
+     games with friends on console and PC.
+ </p>
+ <button class="w-[5rem] mt-auto text-white p-1 border text-sm bg-blue-500"> Join Now</button>
+
+</div>
+
+<!-- ////////////////////////////////////////////////////////////////////////////// -->
+                              <!-- sm and lg sizes -->
+<!-- ////////////////////////////////////////////////////////////////////////////// -->
+
+<p class=" self-start text-xl xl:hidden xxl:hidden lg:hidden p-1 ">For businnes</p>
+
+<div class=" sm:flex md:flex lg:hidden xl:hidden xxl:hidden 
+w-[100%] h-auto  justify-around items-center  flex-row gap-2 sm:text-sm  p-1 pt-0 ">
+<div class="w-[520px] h-[250px]  border flex flex-col gap-[0.5px] p-2 shadow-xl">
+
+  <div class="w-auto h-auto justify-self-center self-center ">
+    <img class="w-[140px] h-[100px]" 
+    src="./image/Content-Card-Surface-Laptop-Studio-2-CONS-M001.webp" alt="">
+  </div>
+  
+  <h2 class="ml-2 mt-2 font-bold text-sm " >
+    Maximize the everyday with Microsoft 365         
+  </h2>
+  
+  <p class="text-md sm:text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, 
+    voluptas accusamus saepe totam recusandae ipsam.
+  </p>
+  
+  <button class="w-[5rem] p-1  mt-auto text-white bg-blue-500 text-sm border"> for 1 person </button>
+
+</div>
+
+<div class=" w-[520px] h-[250px]  border flex flex-col gap-1 p-2 shadow-xl">
+  
+  <div class="w-auto h-auto justify-self-center self-center ">
+    <img class="w-[140px] h-[100px]" 
+    src="./image/gldn-XSX-CP-Xbox-Series-X.webp" alt="">
+  </div>
+    
+  <h2 class="ml-2 mt-2 text-sm font-bold">          
+    Xbox Game Pass Ultimate
+   </h2>
+    
+   <p class="text-md sm:text-sm">Play new games on day one. Plus, enjoy hundreds of high-quality
+       games with friends on console and PC.
+   </p>
+   <button class="w-[5rem] mt-auto text-white p-1 border text-sm bg-blue-500"> Join Now</button>
+
+</div>     
+
+</div>
+
+<div class="sm:flex md:flex  w-[100%] h-auto sm:text-sm
+    lg:hidden xl:hidden xxl:hidden flex-row  justify-around items-center gap-2 ">
+
+<div class="w-[520px] h-[250px]  border flex flex-col gap-1 p-1 shadow-xl">
+  
+  <div class="w-auto h-auto justify-self-center self-center ">
+    <img class="w-[140px] h-[100px]" 
+    src="./image/Content-Card-Surface-Laptop-Studio-2-CONS-M001.webp" alt="">
+  </div>
+  
+  <h2 class="ml-2 mt-2 text-sm font-bold ">  
+    Maximize the everyday with Microsoft 365
+  </h2>
+
+  <p class="text-md sm:text-sm" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Voluptatem, temporibus.</p>
+
+  <button class="w-[6rem] mt-auto text-white bg-blue-500 whitespace-nowrap 
+      text-sm p-1 border"> Learn more</button>
+
+
+</div>
+
+<div class=" w-[520px] h-[250px]  border flex flex-col gap-1 p-1 shadow-xl">
+    
+  <div class="w-auto h-auto justify-self-center self-center ">
+    <img class="w-[140px] h-[100px]" 
+    src="./image/Content-Card-Windows-11-Business.jpg" alt="">
+  </div>
+
+  <h2 class="ml-2 mt-2 text-sm font-bold">  
+    Maximize the everyday with Microsoft 365
+  </h2>
+
+  <p class="text-md sm:text-sm" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Voluptatem, temporibus.</p>
+
+    <button class="w-[6rem] mt-auto text-white bg-blue-500 whitespace-nowrap 
+      text-sm p-1 border"> Learn more</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+                      <!-- Explore more about AI and Copilot Section -->
+<!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+<p class="text-[1.725rem] p-4 sm:flex md:flex  lg:flex sm:text-[1.1rem] sm:font-bold">Explore more about AI and Copilot</p>
+
+<section class="w-[100%] xxl:flex xl:flex lg:flex md:flex sm:flex 
+              md:flex-col sm:flex-col flex-row justify-around items-center
+               gap-2 p-4 sm:gap-5 sm:justify-center md:justify-center">
+
+  <div class=" w-[434px] h-[525px]  lg:h-[450px] 
+              border flex flex-col gap-1 p-1 shadow-xl md:w-[100%] md:h-[600px] 
+              sm:h-[420px] sm:w-auto ">
+    
+    <div class="w-auto h-auto  justify-self-center self-center flex
+             justify-center items-center ">
+      <img class="w-[100%] h-[250px] lg:w-[100%] lg:h-[250px] md:h-[400px] " 
+      src="./image/Content-Card-WorkLab-Use-Case-By-Function-Platform.jpg" alt="">
+    </div>
+  
+    <h2 class="ml-2 mt-2 text-xl font-bold lg:text-[1rem] md:text-xxl sm:text-lg ">  
+      Maximize the everyday with Microsoft 365 Lorem ipsum dolor 
+      
+    </h2>
+  
+    <p class="text-md sm:text-sm lg:text-sm p-1" >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Voluptatem, temporibus sit amet, 
+              consectetur adipisicing elit. Quae, nobis..</p>
+  
+      <button class="w-[10rem] mt-auto text-white bg-blue-500 whitespace-nowrap 
+        text-lg p-1 border lg:w-[8rem] lg:text-sm sm:w-[7rem] sm:text-[0.7rem]"> Explore the Prompts</button>
+  
+  </div>
+
+  <div class=" w-[434px] h-[525px]  lg:h-[450px] 
+              border flex flex-col gap-1 p-1 shadow-xl md:w-[100%] md:h-[600px] 
+              sm:h-[420px] sm:w-auto">
+    
+    <div class="w-auto h-auto justify-self-center self-center flex
+                justify-center items-center ">
+    <img class="w-[100%] h-[250px] lg:w-[100%] lg:h-[250px] md:h-[400px] " 
+                src="./image/Content-Card-AI-Quiz-2-Magenta.jpg" alt="">
+    </div>
+  
+    <h2 class="ml-2 mt-2 text-xl font-bold lg:text-[1rem]">  
+      What’s your AIQ at work?
+      
+    </h2>
+  
+    <p class="text-md sm:text-sm lg:text-sm" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+      Voluptatem, temporibus sit amet, consectetur adipisicing elit. Quae, nobis..</p>
+  
+      <button class="w-[10rem] mt-auto text-white bg-blue-500 whitespace-nowrap 
+        text-lg p-1 border lg:text-sm lg:w-[8rem] sm:w-[7rem] sm:text-[0.7rem]"> Explore the Prompts</button>
+  
+  </div>
+
+  <div class=" w-[434px] h-[525px]  lg:h-[450px] 
+  border flex flex-col gap-1 p-1 shadow-xl md:w-[100%] md:h-[600px]
+   sm:h-[420px] sm:w-auto">   
+
+    <div class="w-auto h-auto justify-self-center self-center flex
+      justify-center items-center ">
+      <img class="w-[100%] h-[250px] lg:w-[100%] lg:h-[250px] md:h-[400px] " 
+        src="./image/Content-Card-AI-Email-Overload.jpg" alt="">
+    </div>
+  
+    <h2 class="ml-2 mt-2 text-xl font-bold lg:text-[1rem]">  
+      Tame your inbox with AI 
+      
+    </h2>
+  
+    <p class="text-md sm:text-sm lg:text-sm" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+      Voluptatem, temporibus sit amet, consectetur adipisicing elit. Quae, nobis..</p>
+  
+      <button class="w-[10rem] mt-auto text-white bg-blue-500 whitespace-nowrap 
+        text-lg p-1 border lg:w-[8rem] lg:text-sm sm:w-[7rem] sm:text-[0.7rem]"> Explore the Prompts</button>
+  
+  </div>
+
+</section>
+<!-- //////////////////////////////////////////////////////////////////////////////// -->
+                                <!-- swiper section -->
+<!-- ///////////////////////////////////////////////////////////////////////////////// -->
+  <section class="swiperSection">
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="w-[100%] h-[100%] bg-slate-500 flex flex-row 
+              justify-around gap-2 items-center">
+            <div class="w-[100%] h-[100%]">
+              <img class="w-[50%] h-[100%] " 
+              src="./image/Highlight-Sustainability-AI-Bioacoustics-Scarlet-Macaw_VP2-859x540.jpg" alt="">
+
+            </div>  
+            <div class="w-[100%] h-[100%] flex flex-col gap-5 justify-center items-center">
+              <h2 class="text-xl font-bold">Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit. Fugit</h2>
+              <p class="text-center p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ad a voluptate cupiditate dolorem cumque ab quo odit natus repellat minus.
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit deleniti 
+               vel ab earum expedita mollitia asperiores doloribus sapiente dicta optio!
+              </p>
+              <button class="w-[12rem] self-start text-sm p-1 m-5  bg-blue-500 text-white border"> Learn About AI and biaoacoustic</button>
+
+            </div>
+            
+          </div>
+        </div>
+        <div class="swiper-slide">
+
+          <div class="w-[100%] h-[100%]  flex flex-row 
+          justify-around gap-2 items-center">
+        <div class="w-[100%] h-[100%]">
+          <img class="w-[50%] h-[100%] " 
+          src="./image/Highlight-Copilot-Creator-Images_VP2-859x540.jpg" alt="">
+
+        </div>  
+        <div class="w-[100%] h-[100%] flex flex-col gap-5 justify-center items-center">
+          <h2 class="text-xl font-bold">Lorem ipsum dolor sit amet, 
+            consectetur adipisicing elit. Fugit</h2>
+          <p class="text-center p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Ad a voluptate cupiditate dolorem cumque ab quo odit natus repellat minus.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit deleniti 
+           vel ab earum expedita mollitia asperiores doloribus sapiente dicta optio!
+          </p>
+          <button class="w-[12rem] self-start text-sm p-1 m-5  bg-blue-500 text-white border"> Learn About AI and biaoacoustic</button>
+
+        </div>
+        
+      </div>
+        </div>
+       
+      </div>
+      <div class="swiper-button-next">
+        <svg class="p-[1px]" fill="#00000" height="10px" width="10px"
+         version="1.1" id="XMLID_287_" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          viewBox="0 0 24 24" xml:space="preserve">
+<g id="next">
+	<g>
+		<polygon points="6.8,23.7 5.4,22.3 15.7,12 5.4,1.7 6.8,0.3 18.5,12 		"/>
+	</g>
+</g>
+</svg>
+      </div>
+      <div class="swiper-button-prev">
+        <svg class="p-[1px]" width="10px" height="10px" viewBox="0 0 1024 1024" fill="#00000"
+         class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path 
+         d="M669.6 849.6c8.8 8 22.4 7.2 30.4-1.6s7.2-22.4-1.6-30.4l-309.6-280c-8-7.2-8-17.6
+          0-24.8l309.6-270.4c8.8-8 9.6-21.6 2.4-30.4-8-8.8-21.6-9.6-30.4-2.4L360.8 480.8c-27.2 
+          24-28 64-0.8 88.8l309.6 280z" fill="" /></svg>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+ <!-- ///////////////////////////////////////////////////////////////////////////////// -->
+                                  <!-- js swiper Part -->
+  <!-- ///////////////////////////////////////////////////////////////////////////////// -->
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+  </section>    
+
+</main>
 
   </body>
+
+ 
+
+
 </html>
