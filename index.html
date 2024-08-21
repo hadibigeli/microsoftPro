@@ -14,7 +14,7 @@
 
   </head>
   
-  <body class="flex flex-col  ">
+  <body id="mainBody" class="flex flex-col  ">
 
     <header class="border">
 
@@ -509,7 +509,7 @@
               Maximize the everyday with Microsoft 365         
             </h2>
           
-          <p class="text-md">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, 
+          <p class="md:text-md sm:text-[0.5rem]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, 
             voluptas accusamus saepe totam recusandae ipsam.</p>
           
             <button class="w-[5rem] p-1  mt-auto text-white bg-blue-500 text-sm border"> for 1 person </button>
@@ -669,7 +669,7 @@
                                       <!-- section lg xxl xl sizes -->
       <!-- ////////////////////////////////////////////////////////////////////////////// -->        
 
-      <section class="w-[100%] h-auto mb-[5rem] flex  justify-center mt-[5rem]">
+      <section class="w-[100%] h-auto mb-[5rem] flex  justify-center mt-[5rem] bg-white">
 
         <div class="w-[95%] h-[100%] sm:flex md:flex lg:flex xl:flex 
           xxl:flex justify-center  flex-row  md:flex-col sm:flex-col xl:text-xl xxl:text-xxl">
@@ -684,7 +684,7 @@
                 <span class="whitespace-nowrap">Microsoft Copilot</span>
               </h1>
               
-              <p class="flex flex-col text-[1.1rem] sm:text-[1rem]"> 
+              <p class="flex flex-col text-[1.1rem] sm:text-[0.8rem]"> 
                 <span class="whitespace-nowrap" >Get things done faster and unleash</span>
                 <span class="whitespace-nowrap" >your ceavity with the power of AI</span>
                 <span class="whitespace-nowrap">anywhere you go</span>
@@ -883,7 +883,9 @@ w-[100%] h-auto  justify-around items-center  flex-row gap-2 sm:text-sm  p-1 pt-
                       <!-- Explore more about AI and Copilot Section -->
 <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
 
-<p class="text-[1.725rem] p-4 sm:flex md:flex  lg:flex sm:text-[1.1rem] sm:font-bold">Explore more about AI and Copilot</p>
+<p class="text-[1.725rem] p-4 sm:flex md:flex  lg:flex 
+  sm:text-[0.6rem] sm:mb-0 sm:pt-20 sm:font-bold">
+  Explore more about AI and Copilot</p>
 
 <section class="w-[100%] xxl:flex xl:flex lg:flex md:flex sm:flex 
               md:flex-col sm:flex-col flex-row justify-around items-center
@@ -899,7 +901,7 @@ w-[100%] h-auto  justify-around items-center  flex-row gap-2 sm:text-sm  p-1 pt-
       src="./image/Content-Card-WorkLab-Use-Case-By-Function-Platform.jpg" alt="">
     </div>
   
-    <h2 class="ml-2 mt-2 text-xl font-bold lg:text-[1rem] md:text-xxl sm:text-lg ">  
+    <h2 class="ml-2 mt-2 text-xl font-bold lg:text-[1rem] md:text-xxl sm:text-[0.6rem] ">  
       Maximize the everyday with Microsoft 365 Lorem ipsum dolor 
       
     </h2>
@@ -924,7 +926,7 @@ w-[100%] h-auto  justify-around items-center  flex-row gap-2 sm:text-sm  p-1 pt-
                 src="./image/Content-Card-AI-Quiz-2-Magenta.jpg" alt="">
     </div>
   
-    <h2 class="ml-2 mt-2 text-xl font-bold lg:text-[1rem]">  
+    <h2 class="ml-2 mt-2 text-xl font-bold lg:text-[1rem] sm:text-[0.6rem]">  
       What’s your AIQ at work?
       
     </h2>
@@ -947,7 +949,7 @@ w-[100%] h-auto  justify-around items-center  flex-row gap-2 sm:text-sm  p-1 pt-
         src="./image/Content-Card-AI-Email-Overload.jpg" alt="">
     </div>
   
-    <h2 class="ml-2 mt-2 text-xl font-bold lg:text-[1rem]">  
+    <h2 class="ml-2 mt-2 text-xl font-bold lg:text-[1rem] sm:text-[0.6rem]">  
       Tame your inbox with AI 
       
     </h2>
@@ -970,16 +972,21 @@ w-[100%] h-auto  justify-around items-center  flex-row gap-2 sm:text-sm  p-1 pt-
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="w-[100%] h-[100%] bg-slate-500 flex flex-row 
-              justify-around gap-2 items-center">
-            <div class="w-[100%] h-[100%]">
-              <img class="w-[50%] h-[100%] " 
+              justify-around gap-2 items-center  
+              xxl:text-lg xl:text-lg lg: text-md md:text-md sm:text-sm ">
+            <div class="w-[50%] h-[100%]">
+              <img class="w-[100%] h-[100%] " 
               src="./image/Highlight-Sustainability-AI-Bioacoustics-Scarlet-Macaw_VP2-859x540.jpg" alt="">
 
             </div>  
-            <div class="w-[100%] h-[100%] flex flex-col gap-5 justify-center items-center">
-              <h2 class="text-xl font-bold">Lorem ipsum dolor sit amet, 
+            <div class="w-[100%] h-[100%] sm:w-[70%] flex flex-col gap-5 justify-center items-center
+            xxl:text-lg xl:text-lg lg: text-md md:text-md sm:text-sm sm:gap-2">
+              <h2 class="text-xl font-bold lg:text-md md:text-md sm:text-sm">
+                Lorem ipsum dolor sit amet, 
                 consectetur adipisicing elit. Fugit</h2>
-              <p class="text-center p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              <p class="text-center p-1
+              xxl:text-lg xl:text-lg lg:text-sm md:text-sm sm:text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Ad a voluptate cupiditate dolorem cumque ab quo odit natus repellat minus.
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit deleniti 
                vel ab earum expedita mollitia asperiores doloribus sapiente dicta optio!
@@ -999,7 +1006,9 @@ w-[100%] h-auto  justify-around items-center  flex-row gap-2 sm:text-sm  p-1 pt-
           src="./image/Highlight-Copilot-Creator-Images_VP2-859x540.jpg" alt="">
 
         </div>  
-        <div class="w-[100%] h-[100%] flex flex-col gap-5 justify-center items-center">
+        <div class="w-[100%] h-[100%] flex flex-col gap-5 justify-center items-center
+        xxl:text-lg xl:text-lg lg: text-md md:text-md sm:text-sm sm:gap-2">
+            
           <h2 class="text-xl font-bold">Lorem ipsum dolor sit amet, 
             consectetur adipisicing elit. Fugit</h2>
           <p class="text-center p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -1007,7 +1016,8 @@ w-[100%] h-auto  justify-around items-center  flex-row gap-2 sm:text-sm  p-1 pt-
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit deleniti 
            vel ab earum expedita mollitia asperiores doloribus sapiente dicta optio!
           </p>
-          <button class="w-[12rem] self-start text-sm p-1 m-5  bg-blue-500 text-white border"> Learn About AI and biaoacoustic</button>
+          <button class="w-[12rem] self-start text-sm p-1 m-5 
+           bg-blue-500 text-white border"> Learn About AI and biaoacoustic</button>
 
         </div>
         

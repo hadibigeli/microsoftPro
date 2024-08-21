@@ -17,7 +17,6 @@ const onResizeEvent = () => {
     inputWide.style.display = "none";
     xxlMenu.style.display = "flex";
   }
-  console.log(window.innerWidth);
 };
 
 window.addEventListener("resize", onResizeEvent, true);
