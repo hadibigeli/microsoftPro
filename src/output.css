@@ -726,8 +726,16 @@ video {
   width: 200px;
 }
 
+.w-\[3\.5rem\] {
+  width: 3.5rem;
+}
+
 .w-\[434px\] {
   width: 434px;
+}
+
+.w-\[4rem\] {
+  width: 4rem;
 }
 
 .w-\[50\%\] {
@@ -856,6 +864,10 @@ video {
   gap: 0.5px;
 }
 
+.gap-\[0\.7px\] {
+  gap: 0.7px;
+}
+
 .gap-\[0\.8em\] {
   gap: 0.8em;
 }
@@ -940,11 +952,6 @@ video {
 .bg-blue-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
-.bg-green-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
 }
 
 .bg-slate-400 {
@@ -1035,12 +1042,16 @@ video {
   padding-top: 0px;
 }
 
-.pt-\[4em\] {
-  padding-top: 4em;
-}
-
 .pt-10 {
   padding-top: 2.5rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pt-\[4em\] {
+  padding-top: 4em;
 }
 
 .text-center {
@@ -1049,6 +1060,10 @@ video {
 
 .text-2xl {
   font-size: 1.563rem;
+}
+
+.text-\[0\.5rem\] {
+  font-size: 0.5rem;
 }
 
 .text-\[0\.8rem\] {
@@ -1185,28 +1200,8 @@ video {
     gap: 1.25rem;
   }
 
-  .sm\:pt-10 {
-    padding-top: 2.5rem;
-  }
-
   .sm\:pt-20 {
     padding-top: 5rem;
-  }
-
-  .sm\:text-\[0\.7rem\] {
-    font-size: 0.7rem;
-  }
-
-  .sm\:text-\[1\.1rem\] {
-    font-size: 1.1rem;
-  }
-
-  .sm\:text-\[1rem\] {
-    font-size: 1rem;
-  }
-
-  .sm\:text-sm {
-    font-size: 0.7rem;
   }
 
   .sm\:text-\[0\.5rem\] {
@@ -1217,24 +1212,28 @@ video {
     font-size: 0.6rem;
   }
 
+  .sm\:text-\[0\.7rem\] {
+    font-size: 0.7rem;
+  }
+
   .sm\:text-\[0\.8rem\] {
     font-size: 0.8rem;
   }
 
-  .sm\:text-\[0\.2rem\] {
-    font-size: 0.2rem;
+  .sm\:text-\[0\.9rem\] {
+    font-size: 0.9rem;
+  }
+
+  .sm\:text-\[1rem\] {
+    font-size: 1rem;
+  }
+
+  .sm\:text-sm {
+    font-size: 0.7rem;
   }
 
   .sm\:font-bold {
     font-weight: 700;
-  }
-
-  .sm\:text-\[\] {
-    color: ;
-  }
-
-  .sm\:text-\[0\.rem\] {
-    color: 0.rem;
   }
 }
 
@@ -1355,6 +1354,10 @@ video {
     flex-direction: row;
   }
 
+  .xl\:text-sm {
+    font-size: 0.7rem;
+  }
+
   .xl\:text-xl {
     font-size: 1.25rem;
   }
@@ -1383,5 +1386,9 @@ video {
 
   .xxl\:flex-row {
     flex-direction: row;
+  }
+
+  .xxl\:text-sm {
+    font-size: 0.7rem;
   }
 }

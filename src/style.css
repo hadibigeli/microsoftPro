@@ -13,24 +13,24 @@
       font-size: 0.5rem;
         
     }
-    #mainBody:only-child{
-        font-size: 0.2rem !important ;
-    }
+  
 }
 .swiperSection{
   width: 100% ;
   display: flex ;
-  margin-bottom: 10px ;
   position: relative;
-  /* height: 500px ; */
 }
+
 @media all and (min-width: 1024px){
 .swiperSection{
-    height:500px;
-   }}
+    height:600px;
+   }
+
+  }
 @media all and (min-width: 600px) and (max-width :1024px ){
   .swiperSection{
       height:400px;
+      font-size: 1rem ;
     }
 }
 @media all and (max-width :600px ){
@@ -82,23 +82,37 @@
       top: 92%;
 
     }     
+    .swiperSection .swiper .swiper-button-next{
+      right: 45% ;}
+      .swiperSection .swiper .swiper-button-prev{
+        left: 45% ;}
   }
-  @media all and (max-width: 600px){
+  @media all and (min-width: 300px) and (max-width: 600px){
 
     .swiperSection .swiper .swiper-button-next,
     .swiperSection .swiper .swiper-button-prev{
       top: 92%;
 
     }     
+    .swiperSection .swiper .swiper-button-next{
+      right: 42% ;}
+      .swiperSection .swiper .swiper-button-prev{
+        left: 42% ;}
+  }
+  @media all and (max-width: 300px){
+    .swiperSection .swiper .swiper-button-next{
+      right:40%;
+      top: 92%;
+    }
+    .swiperSection .swiper .swiper-button-prev{
+      left:40%;
+      top: 92%;
+    }
   }
 
-  .swiperSection .swiper .swiper-button-next{
-    right: 45% ;
-    padding: 1px ;
-    
-  }
-  .swiperSection .swiper .swiper-button-prev{
-    left:45%;
+  .swiperSection .swiper .swiper-button-next,
+    .swiperSection .swiper .swiper-button-prev{
+
     padding: 1px ;
     
   }
